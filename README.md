@@ -415,6 +415,7 @@ The `web.php` file contains the web routes for your application.
 
 ########### General Scafolding of relevant files #############
 
+`
 |-vin-checker/
 |  |- app/
 |  |  |- Http/
@@ -458,3 +459,4 @@ The `web.php` file contains the web routes for your application.
 |  |- vite.config.js
 |- LICENSE
 |- README.md
+`
