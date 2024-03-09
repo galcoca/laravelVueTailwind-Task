@@ -5,10 +5,10 @@ Make sure to change the API KEY under resources/js/Global.js
     - Replace APIKEYFORVINDECODER for the X-RapidAPI-Key
 
 
-Documentation:
+# Documentation:
 
 
-########### DashboardController File #############
+## DashboardController File
 
 The `DashboardController` is responsible for handling the dashboard functionality in the application.
 
@@ -32,7 +32,7 @@ Validates the user's phone.
 
 
 
-########### ErrorLogController File #############
+## ErrorLogController File
 
 The `ErrorLogController` is responsible for handling the logging of errors in the application.
 
@@ -50,7 +50,7 @@ Stores an error log entry.
 
 
 
-########### HomeController File #############
+## HomeController File
 
 The `HomeController` is responsible for handling the application's home page and user check functionality.
 
@@ -73,7 +73,7 @@ Performs a user check.
 
 
 
-########### OtpController File #############
+## OtpController File
 
 The `OtpController` is responsible for handling OTP (One-Time Password) functionality, including sending OTP codes and verifying phone numbers.
 
@@ -98,7 +98,7 @@ Verifies the phone number after successful OTP validation.
 
 
 
-########### app.js File #############
+## app.js File
 
 The `app.js` file is the entry point for the Vue.js application. It sets up the Vue router and mounts the main `App` component.
 
@@ -113,7 +113,7 @@ The `app.js` file is the entry point for the Vue.js application. It sets up the 
 
 
 
-########### validationRules.js File #############
+## validationRules.js File
 
 The `validationRules.js` file contains custom validation rules for the VeeValidate library.
 
@@ -165,7 +165,7 @@ Validates a Vehicle Identification Number (VIN).
 
 
 
-########### getToken.js File #############
+## getToken.js File
 
 The `getToken.js` file contains a function to retrieve a CSRF token using Axios.
 
@@ -184,14 +184,14 @@ Retrieves a CSRF token by making a GET request to the `/sanctum/csrf-cookie` end
 
 
 
-########### App.vue File #############
+## App.vue File
 
 The `App.vue` file is the root component of the Vue.js application.
 
 
 
 
-Scafolding of VUE:
+## Scafolding of VUE:
 
 - Templates: 2 almost static components:
 
